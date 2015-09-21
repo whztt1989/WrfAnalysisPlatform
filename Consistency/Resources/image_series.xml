@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Images>
+    <ImageSeries>
+        <ImagePath path="G:/VisData/meteorology/data/newecmwf_grib/rain24/rain02/13040608.024"/>
+        <ImagePath path="G:/VisData/meteorology/data/newecmwf_grib/rain24/rain02/13040508.048"/>
+        <ImagePath path="G:/VisData/meteorology/data/newecmwf_grib/rain24/rain02/13040408.072"/>
+        <ImagePath path="G:/VisData/meteorology/data/newecmwf_grib/rain24/rain02/13040308.096"/>
+        <ImagePath path="G:/VisData/meteorology/data/newecmwf_grib/rain24/rain02/13040208.120"/>
+        <ImagePath path="G:/VisData/meteorology/data/newecmwf_grib/rain24/rain02/13040108.144"/>
+    </ImageSeries>
+</Images>

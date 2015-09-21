@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{ce371e6d-4b57-4994-ac5e-ba10386d3e35}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{a52d5f9e-2f3b-4412-8b06-61b470e5f556}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\Menu Dialog">
+      <UniqueIdentifier>{e853e55e-4af2-4252-a67f-5b934dc71edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu Dialog">
+      <UniqueIdentifier>{d87ec601-8aa8-40d3-8c4a-0503c67b0767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Flow Chart">
+      <UniqueIdentifier>{b2145b17-2ddb-48c6-98d2-b627b9a4794a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Flow Chart">
+      <UniqueIdentifier>{d6c50a6e-b24f-4000-bc03-c186a6e19d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager">
+      <UniqueIdentifier>{77adc036-80a0-436d-a108-5f117a6e6e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{d9edb82d-fa44-49e9-860c-60271f4281f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{e222721f-4d53-4398-a07a-8e664c89bee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{b4d41a1d-0482-40d4-95a3-dc6d75a4238d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering Elements">
+      <UniqueIdentifier>{8e157c43-24f7-44c7-9c59-d0f8c412492f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering Elements">
+      <UniqueIdentifier>{441d0390-bbec-488b-8b61-7f5ef8f20c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{e7cfb2cf-76a7-43b6-ad9a-b770562ffe51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{aee22403-9420-4046-b56b-75a3e50add9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Views">
+      <UniqueIdentifier>{ad3ea397-a137-47d7-a8dc-eede0dfbc1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views">
+      <UniqueIdentifier>{f05dbb7d-fc55-4551-9bf7-a913ca2ac4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Glyph Layout">
+      <UniqueIdentifier>{967889a7-1442-4321-b52f-ee044f96ccda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Glyph Layout">
+      <UniqueIdentifier>{774e74b0-64b3-4ae1-98ef-8ff1e09b5767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GCopt">
+      <UniqueIdentifier>{36cea8ed-70d4-4109-bbbd-0d4fb6d66d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GCopt">
+      <UniqueIdentifier>{cda9f77b-050a-4b37-954d-06d765582536}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_visualization_platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_visualization_platform.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_visualization_platform.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_wrf_visualization_platform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_image_series_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_image_series_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_image_viewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_image_viewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_similarity_time_line_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_similarity_time_line_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_event_searching_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_event_searching_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_image_matrix_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_image_matrix_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_initialization_selection_widget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_initialization_selection_widget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_rendering_element.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_rendering_element.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_grid_map_element.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_grid_map_element.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_grid_rms_error_element.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_grid_rms_error_element.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_region_detection_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_region_detection_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_load_ensemble_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_load_ensemble_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_load_ensemble_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_load_ranalysis_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_load_ranalysis_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_load_ranalysis_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_initialization_selection_widget.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_ensemble_data_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_ensemble_data_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_probabilistic_forecast_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_probabilistic_forecast_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_probabilistic_forecast_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_searching_pre_processing_para_widget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_searching_pre_processing_para_widget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_searching_pre_processing_para_widget.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_forecast_comparison_widget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_forecast_comparison_widget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_flow_chart.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_flow_chart.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="step_item.cpp">
+      <Filter>Source Files\Flow Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="flow_chart.cpp">
+      <Filter>Source Files\Flow Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_step_item.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_step_item.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="arrow.cpp">
+      <Filter>Source Files\Flow Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_process_path_selection_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_data_manager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_reforecast_manager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_ensemble_manager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_nc_square_projection_data.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_nc_lambcc_projection_data.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_color_bar_element.cpp">
+      <Filter>Source Files\Rendering Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_grid_map_element.cpp">
+      <Filter>Source Files\Rendering Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_grid_rms_error_element.cpp">
+      <Filter>Source Files\Rendering Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="color_mapping_generator.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_utility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_statistic_solver.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_ensemble_data_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_event_searching_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_forecast_comparison_widget.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_image_matrix_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_image_series_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_image_viewer.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_region_detection_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_similarity_time_line_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_rendering_element_factory.cpp">
+      <Filter>Source Files\Rendering Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_forecasting_manager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_arrow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_arrow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_stamp_viewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_stamp_viewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_stamp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_stamp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_stamp.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_stamp_viewer.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_event_analyzing_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_event_analyzing_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_mds_plot_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_mds_plot_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_mds_plot_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_event_analyzing_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_table_lens.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_table_lens.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="table_lens.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_grid_rms_pack.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_comparison_line_chart.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_comparison_line_chart.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="comparison_line_chart.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_image_element.cpp">
+      <Filter>Source Files\Rendering Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_scatter_plot.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_scatter_plot.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="scatter_plot.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_iso_line_element.cpp">
+      <Filter>Source Files\Rendering Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_iso_line_plot_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_iso_line_plot_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_iso_line_plot_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_scatter_plot_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_scatter_plot_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_scatter_plot_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_ensemble_selection_widget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_ensemble_selection_widget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_ensemble_selection_widget.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_add_map_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_add_map_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_add_map_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_rms_mapping_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_rms_mapping_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_rms_mapping_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_subregion_rms_scale_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_subregion_rms_scale_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_subregion_rms_scale_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_slider_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_slider_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_slider_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_subregion_rms_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_subregion_rms_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_subregion_rms_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_variable_selection_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_variable_selection_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_variable_selection_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_event_comparison_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_event_comparison_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_event_comparison_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_radar_coordinate_view.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_radar_coordinate_view.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_radar_coordinate_view.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_radar_item.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_radar_item.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_radar_item.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_parallel_coordinate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_parallel_coordinate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="parallel_coordinate.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_manual_group_table.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_manual_group_table.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="manual_group_table.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_rank_group_table.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_rank_group_table.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="rank_group_table.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_rank_para_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_rank_para_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_rank_para_dialog.cpp">
+      <Filter>Source Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_event_comparison_variable_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_event_comparison_variable_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_event_comparison_variable_dialog.cpp">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_disable_column_edit_delegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_disable_column_edit_delegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_glyph_test_window.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_glyph_test_window.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="glyph_test_window.cpp">
+      <Filter>Source Files\Glyph Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wrf_uncertainty_glyph_element.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wrf_uncertainty_glyph_element.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wrf_uncertainty_glyph_element.cpp">
+      <Filter>Source Files\Rendering Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="gco-v3.0\GCoptimization.cpp">
+      <Filter>Source Files\GCopt</Filter>
+    </ClCompile>
+    <ClCompile Include="gco-v3.0\graph.cpp">
+      <Filter>Source Files\GCopt</Filter>
+    </ClCompile>
+    <ClCompile Include="gco-v3.0\LinkedBlockList.cpp">
+      <Filter>Source Files\GCopt</Filter>
+    </ClCompile>
+    <ClCompile Include="gco-v3.0\maxflow.cpp">
+      <Filter>Source Files\GCopt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="wrf_visualization_platform.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_visualization_platform.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_visualization_platform.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_load_ensemble_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_load_ranalysis_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_initialization_selection_widget.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_probabilistic_forecast_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_searching_pre_processing_para_widget.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="flow_chart.h">
+      <Filter>Header Files\Flow Chart</Filter>
+    </CustomBuild>
+    <CustomBuild Include="step_item.h">
+      <Filter>Header Files\Flow Chart</Filter>
+    </CustomBuild>
+    <CustomBuild Include="arrow.h">
+      <Filter>Header Files\Flow Chart</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_grid_map_element.h">
+      <Filter>Header Files\Rendering Elements</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_grid_rms_error_element.h">
+      <Filter>Header Files\Rendering Elements</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_ensemble_data_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_event_searching_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_forecast_comparison_widget.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_image_matrix_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_image_series_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_image_viewer.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_region_detection_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_similarity_time_line_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_rendering_element.h">
+      <Filter>Header Files\Rendering Elements</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_stamp_viewer.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_stamp.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_event_analyzing_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_mds_plot_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="table_lens.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="comparison_line_chart.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="scatter_plot.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_iso_line_plot_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="iso_line_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="scatter_plot_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_scatter_plot_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="variable_setting_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_ensemble_selection_widget.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_add_map_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rms_mapping_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_rms_mapping_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="add_map_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="subregion_rms_scale_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_subregion_rms_scale_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="slider_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_slider_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_subregion_rms_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="subregion_rms_para_widget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="main_view_para_widget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="variable_rms_para_widget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="probabilistic_forecast_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="variable_selection_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_variable_selection_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_event_comparison_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_radar_coordinate_view.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_radar_item.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="event_comparison_para_widget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="parallel_coordinate.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="manual_group_table.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rank_group_table.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_rank_para_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_event_comparison_variable_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="disable_column_edit_delegate.h">
+      <Filter>Header Files\Views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glyph_test_window.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glyph_test_window.h">
+      <Filter>Header Files\Glyph Layout</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wrf_uncertainty_glyph_element.h">
+      <Filter>Header Files\Rendering Elements</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_wrf_visualization_platform.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_process_path_selection_dialog.h">
+      <Filter>Header Files\Menu Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_ensemble_manager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_data_manager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_reforecast_manager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_nc_map_data.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_nc_lambcc_projection_data.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_nc_square_projection_data.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_color_bar_element.h">
+      <Filter>Header Files\Rendering Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="color_mapping_generator.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_utility.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_statistic_solver.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_rendering_element_factory.h">
+      <Filter>Header Files\Rendering Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_forecasting_manager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_grid_rms_pack.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_image_element.h">
+      <Filter>Header Files\Rendering Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="wrf_iso_line_element.h">
+      <Filter>Header Files\Rendering Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_iso_line_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_scatter_plot_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_variable_setting_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_rms_mapping_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_add_map_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_subregion_rms_scale_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_slider_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_subregion_rms_para_widget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_main_view_para_widget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_variable_rms_para_widget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_probabilistic_forecast_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_variable_selection_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_event_comparison_para_widget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_glyph_test_window.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gco-v3.0\block.h">
+      <Filter>Header Files\GCopt</Filter>
+    </ClInclude>
+    <ClInclude Include="gco-v3.0\energy.h">
+      <Filter>Header Files\GCopt</Filter>
+    </ClInclude>
+    <ClInclude Include="gco-v3.0\GCoptimization.h">
+      <Filter>Header Files\GCopt</Filter>
+    </ClInclude>
+    <ClInclude Include="gco-v3.0\graph.h">
+      <Filter>Header Files\GCopt</Filter>
+    </ClInclude>
+    <ClInclude Include="gco-v3.0\LinkedBlockList.h">
+      <Filter>Header Files\GCopt</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

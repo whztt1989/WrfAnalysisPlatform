@@ -1,0 +1,5 @@
+PATH=$(QTDIR)\bin\$(Platform)%3b$(GLEWDIR)\bin\Release\$(Platform);$(GLUTDIR)\bin;..\$(Platform)\$(Configuration);$(OPENCVDIR)\build\$(Platform)\vc10\bin;$(VTKDIR)
+bin\$(Platform)\$(Configuration);$(NETCDFDIR)\bin;$(NETCDFDIR)\share\$(Platform)\bin;$(PATH)
+
+PATH=$(QTDIR)\bin\$(Platform)%3b$(GLEWDIR)\bin\Release\$(Platform);$(GLUTDIR)\bin;..\$(Platform)\$(Configuration);$(OPENCVDIR)\build\$(Platform)\vc10\bin;$(VTKDIR)
+bin\$(Platform)\$(Configuration);C:\Program Files (x86)\netCDF 4.3.2\bin;C:\Program Files (x86)\netCDF 4.3.2\share\$(Platform)\bin;$(PATH)

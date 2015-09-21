@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WrfAnalysisPlatformClass</class>
+ <widget class="QMainWindow" name="WrfAnalysisPlatformClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WrfAnalysisPlatform</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionLoad_Numerical_Data"/>
+    <addaction name="actionLoad_Historical_Data"/>
+    <addaction name="actionOpen_Project"/>
+    <addaction name="actionSave_Project"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <widget class="QMenu" name="menuEdit_Isoline">
+     <property name="title">
+      <string>Edit Isoline</string>
+     </property>
+     <addaction name="actionStart_Editing"/>
+     <addaction name="actionEnd_Editing"/>
+    </widget>
+    <addaction name="actionGenerate_Bias_Map"/>
+    <addaction name="actionView_Variation_Map"/>
+    <addaction name="menuEdit_Isoline"/>
+    <addaction name="actionAdd_Reference_Map"/>
+    <addaction name="actionAccept_Region_Growing"/>
+    <addaction name="actionCluster_Bis_Parallel_Records"/>
+    <addaction name="actionCluster_Bias_Line_Chart_Records"/>
+    <addaction name="actionCluster_Absolute_Parallel_Records"/>
+    <addaction name="actionCluster_Absolute_Line_Chart_Records"/>
+   </widget>
+   <widget class="QMenu" name="menuTest">
+    <property name="title">
+     <string>Test</string>
+    </property>
+    <addaction name="actionGenerate_Pcp"/>
+    <addaction name="actionGenerate_Line_Chart"/>
+    <addaction name="actionGenerate_Matrix_Chart"/>
+    <addaction name="actionGenerate_Histogram"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionParallel_Bias_View"/>
+    <addaction name="actionParallel_Absolute_View"/>
+    <addaction name="actionBias_Line_View"/>
+    <addaction name="actionAbsolute_Line_View"/>
+    <addaction name="actionStamp_Map_View"/>
+    <addaction name="actionComplex_Stamp_Map_View"/>
+   </widget>
+   <widget class="QMenu" name="menuAnalyse">
+    <property name="title">
+     <string>Analyse</string>
+    </property>
+    <addaction name="actionSum"/>
+    <addaction name="actionMinus"/>
+    <addaction name="actionVariation"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menuTest"/>
+   <addaction name="menuAnalyse"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionLoad_Numerical_Data">
+   <property name="text">
+    <string>Load Numerical Data</string>
+   </property>
+  </action>
+  <action name="actionLoad_Historical_Data">
+   <property name="text">
+    <string>Load Historical Data</string>
+   </property>
+  </action>
+  <action name="actionView_Variation_Map">
+   <property name="text">
+    <string>View Variation Map</string>
+   </property>
+  </action>
+  <action name="actionGenerate_Pcp">
+   <property name="text">
+    <string>Generate Pcp</string>
+   </property>
+  </action>
+  <action name="actionOpen_Project">
+   <property name="text">
+    <string>Open Project</string>
+   </property>
+  </action>
+  <action name="actionSave_Project">
+   <property name="text">
+    <string>Save Project</string>
+   </property>
+  </action>
+  <action name="actionGenerate_Bias_Map">
+   <property name="text">
+    <string>Generate Bias Map</string>
+   </property>
+  </action>
+  <action name="actionGenerate_Line_Chart">
+   <property name="text">
+    <string>Generate Line Chart</string>
+   </property>
+  </action>
+  <action name="actionGenerate_Matrix_Chart">
+   <property name="text">
+    <string>Generate Matrix Chart</string>
+   </property>
+  </action>
+  <action name="actionStart_Editing">
+   <property name="text">
+    <string>Start Editing</string>
+   </property>
+  </action>
+  <action name="actionEnd_Editing">
+   <property name="text">
+    <string>End Editing</string>
+   </property>
+  </action>
+  <action name="actionGenerate_Histogram">
+   <property name="text">
+    <string>Generate Histogram</string>
+   </property>
+  </action>
+  <action name="actionParallel_Bias_View">
+   <property name="text">
+    <string>Parallel Bias View</string>
+   </property>
+  </action>
+  <action name="actionParallel_Absolute_View">
+   <property name="text">
+    <string>Parallel Absolute View</string>
+   </property>
+  </action>
+  <action name="actionBias_Line_View">
+   <property name="text">
+    <string>Bias Line View</string>
+   </property>
+  </action>
+  <action name="actionAbsolute_Line_View">
+   <property name="text">
+    <string>Absolute Line View</string>
+   </property>
+  </action>
+  <action name="actionStamp_Map_View">
+   <property name="text">
+    <string>Stamp Map View</string>
+   </property>
+  </action>
+  <action name="actionAdd_Reference_Map">
+   <property name="text">
+    <string>Add Reference Map</string>
+   </property>
+  </action>
+  <action name="actionSum">
+   <property name="text">
+    <string>Sum</string>
+   </property>
+  </action>
+  <action name="actionMinus">
+   <property name="text">
+    <string>Minus</string>
+   </property>
+  </action>
+  <action name="actionVariation">
+   <property name="text">
+    <string>Variation</string>
+   </property>
+  </action>
+  <action name="actionComplex_Stamp_Map_View">
+   <property name="text">
+    <string>Complex Stamp Map View</string>
+   </property>
+  </action>
+  <action name="actionAccept_Region_Growing">
+   <property name="text">
+    <string>Accept Region Growing</string>
+   </property>
+  </action>
+  <action name="actionCluster_Bis_Parallel_Records">
+   <property name="text">
+    <string>Cluster Bias Parallel Records</string>
+   </property>
+  </action>
+  <action name="actionCluster_Bias_Line_Chart_Records">
+   <property name="text">
+    <string>Cluster Bias Line Chart Records</string>
+   </property>
+  </action>
+  <action name="actionCluster_Absolute_Parallel_Records">
+   <property name="text">
+    <string>Cluster Absolute Parallel Records</string>
+   </property>
+  </action>
+  <action name="actionCluster_Absolute_Line_Chart_Records">
+   <property name="text">
+    <string>Cluster Absolute Line Chart Records</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="wrf_analysis_platform.qrc"/>
+ </resources>
+ <connections/>
+</ui>

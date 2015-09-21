@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WrfVisualizationPlatformClass</class>
+ <widget class="QMainWindow" name="WrfVisualizationPlatformClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WrfVisualizationPlatform</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuOpen_Reanalysis_Data">
+     <property name="title">
+      <string>Load Reanalysis Data</string>
+     </property>
+     <addaction name="actionNARR"/>
+     <addaction name="actionChina_Reanalysis"/>
+    </widget>
+    <addaction name="menuOpen_Reanalysis_Data"/>
+    <addaction name="actionLoad_Combined_Data"/>
+    <addaction name="actionLoad_Ensemble_Data"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuEventFiltering">
+    <property name="title">
+     <string>Event Filtering</string>
+    </property>
+    <addaction name="actionVisual_Assisted_Filtering"/>
+    <addaction name="actionAuto_Filtering"/>
+   </widget>
+   <widget class="QMenu" name="menuInterpolation">
+    <property name="title">
+     <string>Interpolation</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSetting">
+    <property name="title">
+     <string>Setting</string>
+    </property>
+    <addaction name="actionRMS_Mapping"/>
+   </widget>
+   <widget class="QMenu" name="menuForecast">
+    <property name="title">
+     <string>Forecast</string>
+    </property>
+    <addaction name="actionPre_Process_Data"/>
+    <addaction name="actionProbabilistic_Forecast"/>
+   </widget>
+   <widget class="QMenu" name="menuCalibration">
+    <property name="title">
+     <string>Calibration</string>
+    </property>
+    <widget class="QMenu" name="menuSettings">
+     <property name="title">
+      <string>Settings</string>
+     </property>
+     <addaction name="actionSubregion_RMS_Scale"/>
+    </widget>
+    <addaction name="actionApply_Calibration"/>
+    <addaction name="separator"/>
+    <addaction name="menuSettings"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menuForecast"/>
+   <addaction name="menuEventFiltering"/>
+   <addaction name="menuCalibration"/>
+   <addaction name="menuInterpolation"/>
+   <addaction name="menuSetting"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionProbabilistic_Forecast">
+   <property name="text">
+    <string>Probabilistic Forecast</string>
+   </property>
+  </action>
+  <action name="actionReforecast2_Calibration_Probabilistic_Forecast">
+   <property name="text">
+    <string>Reforecast2 Calibration Probabilistic Forecast</string>
+   </property>
+  </action>
+  <action name="actionVisual_Assisted_Filtering">
+   <property name="text">
+    <string>Visual Assisted Filtering</string>
+   </property>
+  </action>
+  <action name="actionAuto_Filtering">
+   <property name="text">
+    <string>Auto Filtering</string>
+   </property>
+  </action>
+  <action name="actionApply_Calibration">
+   <property name="text">
+    <string>Apply Calibration</string>
+   </property>
+  </action>
+  <action name="actionOpen_Reforecast_Data">
+   <property name="text">
+    <string>Open Reforecast Data</string>
+   </property>
+  </action>
+  <action name="actionPre_Process_Data">
+   <property name="text">
+    <string>Pre-Process Data</string>
+   </property>
+  </action>
+  <action name="actionEnsemble_Members">
+   <property name="text">
+    <string>Ensemble Members</string>
+   </property>
+  </action>
+  <action name="actionEnsemble_Mean">
+   <property name="text">
+    <string>Ensemble Mean</string>
+   </property>
+  </action>
+  <action name="actionNARR">
+   <property name="text">
+    <string>NARR</string>
+   </property>
+  </action>
+  <action name="actionChina_Reanalysis">
+   <property name="text">
+    <string>China Reanalysis</string>
+   </property>
+  </action>
+  <action name="actionLoad_Combined_Data">
+   <property name="text">
+    <string>Load Combined Data</string>
+   </property>
+  </action>
+  <action name="actionLoad_Ensemble_Data">
+   <property name="text">
+    <string>Load Ensemble Data</string>
+   </property>
+  </action>
+  <action name="actionRMS_Mapping">
+   <property name="text">
+    <string>RMS Mapping</string>
+   </property>
+  </action>
+  <action name="actionSubregion_RMS_Scale">
+   <property name="text">
+    <string>Subregion RMS Scale</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="wrf_visualization_platform.qrc"/>
+ </resources>
+ <connections/>
+</ui>

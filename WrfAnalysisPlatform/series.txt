@@ -1,0 +1,2 @@
+22 serialization::archive 10 0 1 0
+0 0 0 4 0 0 0 1 0 0 4 T639 1 0 0 4 T639 1 0 0 4 T639 1 0 0 4 T639 0 0 7 0 4 Rain 4 Rain 4 Rain 4 Rain 4 Rain 4 Rain 4 Rain 7 0 0 0 0 0 0 0 0 7 0 10 10 10 10 10 10 10 0 0 1 0 0 0 7 5 5 5 5 5 5 5 1 0 0 1

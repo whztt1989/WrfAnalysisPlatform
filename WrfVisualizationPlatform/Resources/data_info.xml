@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathInfo>
+    <RootPath value="G:/VisData/meteorology/data/"/>
+    <Model name="ec_fine" value="newecmwf_grib/">
+        <Element name="rain24" value="rain24/rain02/" format="4"/>
+        <Element name="temperature_500hpa" value="temper/500/" format="4"/>
+        <Element name="temperature_850hpa" value="temper/850/" format="4"/>
+        <Element name="height_500hpa" value="height/500/" format="4"/>
+        <Element name="height_850hpa" value="height/850/" format="4"/>
+        <Element name="relative_humidity_500hpa" value="rh/500/" format="4"/>
+        <Element name="relative_humidity_850hpa" value="rh/850/" format="4"/>
+    </Model>
+    <Model name="japan_gsm" value="japan_gsm/">
+        <Element name="rain24" value="rain/rain24/rain02/" format="4"/>
+        <Element name="temperature_500hpa" value="temper/500/" format="4"/>
+        <Element name="temperature_850hpa" value="temper/850/" format="4"/>
+        <Element name="height_500hpa" value="height/500/" format="4"/>
+        <Element name="height_850hpa" value="height/850/" format="4"/>
+        <Element name="relative_humidity_500hpa" value="rh/500/" format="4"/>
+        <Element name="relative_humidity_850hpa" value="rh/850/" format="4"/>
+    </Model>
+    <Model name="t639" value="t639/">
+        <Element name="rain24" value="rain24/" format="4"/>
+        <Element name="temperature_500hpa" value="temper/500/" format="4"/>
+        <Element name="temperature_850hpa" value="temper/850/" format="4"/>
+        <Element name="height_500hpa" value="height/500/" format="4"/>
+        <Element name="height_850hpa" value="height/850/" format="4"/>
+        <Element name="relative_humidity_500hpa" value="rh/500/" format="4"/>
+        <Element name="relative_humidity_850hpa" value="rh/850/" format="4"/>
+    </Model>
+</PathInfo>
